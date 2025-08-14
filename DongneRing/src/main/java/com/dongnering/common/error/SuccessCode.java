@@ -17,6 +17,7 @@ public enum SuccessCode {
     COMMENT_DELETE_SUCCESS(HttpStatus.OK, "댓글이 성공적으로 삭제되었습니다."),
     BOOKMARK_DELETE_SUCCESS(HttpStatus.OK,"스크랩이 성공적으로 삭제되었습니다."),
     BOOKMARK_COUNT_SUCCESS(HttpStatus.OK, "스크랩 개수 조회에 성공했습니다."),
+    EMAIL_SEND_SUCCESS(HttpStatus.CREATED, "이메일 전송에 성공했습니다."),
 
     // 201 CREATED
     REFRESH_TOKEN_SUCCESS(HttpStatus.CREATED, "리프레시 토큰으로 액세스 토큰 재발급에 성공하였습니다."),

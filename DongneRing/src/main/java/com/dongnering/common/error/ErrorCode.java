@@ -12,7 +12,7 @@ public enum ErrorCode {
     // 400 BAD REQUEST
     VALIDATION_ERROR(HttpStatus.BAD_REQUEST, "유효성 검사에 실패하였습니다.", "BAD_REQUEST_400"),
     ALREADY_EXISTS_EMAIL(HttpStatus.BAD_REQUEST, "이미 존재하는 이메일입니다.", "BAD_REQUEST_400"),
-
+    EMAIL_SEND_FAIL(HttpStatus.BAD_REQUEST, "이메일 전송에 실패하였습니다", "BAD_REQUEST_400"),
     // 401 UNAUTHORIZED
     INVALID_JWT(HttpStatus.UNAUTHORIZED, "JWT가 비어있거나 잘못된 값입니다.", "UNAUTHORIZED_401"),
     JWT_EXPIRED(HttpStatus.UNAUTHORIZED, "JWT가 만료되었습니다.", "UNAUTHORIZED_401"),
