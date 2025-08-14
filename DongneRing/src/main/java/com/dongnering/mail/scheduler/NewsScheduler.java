@@ -16,7 +16,7 @@ public class NewsScheduler {
     // TODO: 뉴스 연결
 
     // 매일 오전 7시에 메일 전송 실행
-    @Scheduled(cron = "0 41 0 * * *")
+    @Scheduled(cron = "0 55 0 * * *")
     public void sendDailyNews() {
         memberRepository.findAll().forEach(member -> {
             try {
